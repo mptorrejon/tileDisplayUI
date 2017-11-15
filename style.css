@@ -1,0 +1,22 @@
+html{
+	width: 100%
+	height: 100%;
+}
+body{
+	padding: 10px;
+}
+.parent{
+	width:100%;
+	cursor: pointer;
+	height: auto;
+}
+.parent:hover{
+	background: lightyellow;
+}
+.children{
+	display: none;
+}
+.parent:hover .children{
+
+	display: block;
+}
